@@ -1,0 +1,118 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-able-to-checkout-a-product;verify-checkout-button-is-visible-in-cart",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify checkout button is visible in cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 359000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the app",
+            "match": {
+              "location": "src\\stepDefinitions\\steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2511351199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login as a standard username",
+            "match": {
+              "location": "src\\stepDefinitions\\steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6226787399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be on the home page",
+            "match": {
+              "location": "src\\stepDefinitions\\steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1150445699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I try to add an item to the cart",
+            "match": {
+              "location": "src\\stepDefinitions\\steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3281579400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be able to see the added item in the cart",
+            "match": {
+              "location": "src\\stepDefinitions\\steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2288273298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should be able to checkout the item",
+            "match": {
+              "location": "src\\stepDefinitions\\steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1148372399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 273400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-able-to-checkout-a-product",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify able to checkout a product",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  }
+]
